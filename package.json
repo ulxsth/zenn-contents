@@ -1,5 +1,13 @@
 {
+  "scripts": {
+    "play": "ts-node ./playground.ts"
+  },
   "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.3",
     "zenn-cli": "^0.1.158"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
   }
 }
